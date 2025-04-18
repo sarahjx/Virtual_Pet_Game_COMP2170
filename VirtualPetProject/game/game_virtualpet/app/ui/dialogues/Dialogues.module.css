@@ -1,0 +1,11 @@
+.dialogueBox{
+    background-color: var(--primary-color);
+    border: 3px solid var(--secondary-color);
+    padding: var(--spacing-md) var(--spacing-lg);
+    border-radius: 12px;
+    margin-bottom: var(--spacing-lg);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    position: absolute;
+    top: 30%;
+    left: 35%;
+}

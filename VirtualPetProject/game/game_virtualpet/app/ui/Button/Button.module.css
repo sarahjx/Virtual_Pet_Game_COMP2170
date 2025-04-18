@@ -1,0 +1,38 @@
+.button_container {
+    display: flex;
+  justify-content: center; 
+  align-items: flex-start; 
+  height: 100vh; 
+  padding-top: 50vh;
+}
+
+.button_style {
+    border: none;
+    background: transparent;
+    padding: 0;
+    cursor: pointer;
+    transition: transform 0.2s ease;
+    font-family: 'Fredoka One', sans-serif;
+    font-size: 1.25rem;
+    color: #333;
+  }
+  
+  .button_style img {
+    width: 300px;
+    height: auto;
+    display: block;
+
+  }
+  
+  .button_style:hover img {
+    transform: scale(1.05);
+  }
+  
+  .button_style:active img {
+    transform: scale(0.98);
+  }
+  
+  .svg {
+    width: 100%;
+    height: auto; 
+  }
